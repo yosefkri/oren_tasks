@@ -1,0 +1,6 @@
+https://docs.ansible.com/ansible/2.4/copy_module.html
+
+- name: start docker compose
+  shell: |
+    cd <relevant dir>
+    docker-compose up -d
